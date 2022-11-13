@@ -21,9 +21,7 @@ body {
 }
 
 /* logo */
-.bg {
-    color: var(--hero-color);
-}
+
 .logo {
     color: var(--text-title-color);
     color: var(--secretion-color);
@@ -32,6 +30,9 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 4.57;
+}
+.bg {
+    color: var(--hero-color);
 }
 
 .logo:focus {
