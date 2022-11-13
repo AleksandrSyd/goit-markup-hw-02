@@ -1,0 +1,186 @@
+:root {
+    --primary-text-color: #757575;
+    --text-title-color: #212121;
+    --secretion-color: #2196F3;
+    --background: #F5F5F5;
+    --second-background: #F5F4FA;
+    --hero-color: #FFFFFF;
+
+
+}
+
+body {
+    background-color: var(--background);
+    font-family: Roboto, sans-serif;
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+}
+
+/* logo */
+.bg {
+    color: var(--hero-color);
+}
+.logo {
+    color: var(--text-title-color);
+    color: var(--secretion-color);
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 4.57;
+}
+
+.logo:focus {
+    color: var(--text-title-color);  
+}
+
+
+/* header */
+
+.header-menu .menu {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--text-title-color);
+        text-decoration: none;
+}
+.header-menu .menu:focus,
+.header-menu .menu:hover {
+        color: var(--secretion-color);
+}
+
+
+.social-link .link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--primary-text-color);
+        text-decoration: none;
+}
+.social-link .link:focus,
+.social-link .link:hover {
+     color: var(--secretion-color);
+}
+
+
+/* hero */
+
+.hero {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--hero-color);
+}
+
+/* button */
+.button.primary {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+    color: var(--text-title-color);
+    background-color: var(--second-background);
+    cursor: pointer;
+}
+
+.button.primary {
+    color: var(--hero-color);
+    background-color: var(--secretion-color);
+}
+.button.primary:focus,
+.button.primary:hover {
+    color: var(--hero-color);
+    background-color: var(--secretion-color);
+}
+
+.button.second {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--text-title-color);
+    background-color: var(--second-background);
+    cursor: pointer;
+}
+.button.second:hover, 
+.button.second:focus {
+    color: var(--hero-color);
+    background-color: var(--secretion-color);
+}
+
+/* section */
+
+
+.benefits .title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--text-title-color);
+}
+
+.benefits-title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        color: var(--text-title-color)
+   
+}
+
+.benefits .text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primary-text-color)
+}
+
+
+
+.command-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--text-title-color);
+}
+
+.command-text {
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--primary-text-color);
+}
+
+
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    color: var(--text-title-color);
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--primary-text-color);
+}
+/* footer */
+
+.address {
+    color: var(--hero-color);
+    text-decoration: none;
+}
+.address:hover {
+    color: var(--secretion-color);
+}
