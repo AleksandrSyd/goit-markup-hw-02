@@ -2,7 +2,6 @@
     --primary-text-color: #757575;
     --text-title-color: #212121;
     --secretion-color: #2196F3;
-    --background: #F5F5F5;
     --second-background: #F5F4FA;
     --hero-color: #FFFFFF;
     --background-hero: #2F303A;
@@ -16,7 +15,7 @@ body {
 }
 
 
-.list {
+ul {
     list-style: none;
 }
 
@@ -32,16 +31,17 @@ body {
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
-    line-height: 4.57;
+    line-height: 1.19;
     letter-spacing: 0.03em;
+
 }
 
 
 .bg-logo {
     color: var(--logo-color);
 }
-.logo: focus
-.logo: hover {
+.logo:focus
+.logo:hover {
     color: var(--text-title-color);  
 }
 .bg-logo.footer {
@@ -86,8 +86,8 @@ body {
 
 /* hero */
 .background {
-    background-color: var(--background-hero);
-    height: 600px;
+    background-color: #2F303A;
+
 }
 
 .hero {
@@ -98,13 +98,7 @@ body {
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: var(--hero-color);
-          
-            position: absolute;
-            width: 696px;
-            height: 120px;
-            left: 452px;
-            top: 280px;
-       }
+}
 
 
 /* button hero */
@@ -112,18 +106,14 @@ body {
 .button-primary {
         font-weight: 700;
         font-size: 16px;
-        line-height: 1.88;
+        line-height: 1.87;
         font-family: inherit;
         text-align: center;
         letter-spacing: 0.06em;
         color: var(--hero-color);  
         cursor: pointer;
 
-        position: absolute;
-        width: 216px;
-        height: 50px;
-        left: 692px;
-        top: 430px;
+
 }
 
 .button-primary {
@@ -138,10 +128,6 @@ body {
 
 
 /* section benefits */
-
-.benefits-background {
-    background-color: var(--background)
-}
 
 .benefits-title {
     font-weight: 700;
@@ -194,9 +180,6 @@ body {
 
 /* section portfolio */
 
-.portfolio{
-    background-color: var(--background);
-}
 
 
 .button {
@@ -236,14 +219,18 @@ body {
 /* footer */
 
 .footer {
-    background-color: var(--background-hero);
-    height: 252px;
+    background-color: #2F303A;
+    
 
 }
 
 .address {
     color: var(--hero-color);
+    text-decoration: none;
     font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
 
 }
 .address:hover {
@@ -251,10 +238,15 @@ body {
 }
 
 .footer-link {
-font-style: normal;
-color: var(--primary-text-color);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
 }
+
 .footer-link:focus,
 .footer-link:hover {
-color: var(--secretion-color);
+         color: var(--secretion-color);
 }
